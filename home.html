@@ -1,0 +1,365 @@
+<html>
+ <head>
+  <title>
+   BALGOMBAL
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+
+
+
+   body {
+    
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            
+            
+   
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            border-bottom: 1px solid #e0e0e0;
+
+            
+        }
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+
+            
+        }
+        .header .search-bar {
+            
+            display: flex;
+            align-items: center;
+            background-color: #f5f5f5;
+            border-radius: 10px;
+            padding: 5px 5px;
+        }
+        .header .search-bar input {
+            border: none;
+            background: none;
+            outline: none;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .header .search-bar i {
+            color: #888;
+        }
+        .header .auth-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .header .auth-buttons button {
+            padding: 10px 25px;
+            border: none;
+            border-radius: 10px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        .header .auth-buttons .login {
+            background-color: #000;
+            color: #fff;
+        }
+        .header .auth-buttons .signup {
+            background-color: #fff;
+            color: #000;
+            border: 1px solid #000;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 20px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #000;
+            font-size: 18px;        }
+        .hero {
+            position: relative;
+            text-align: left;
+            color: white;
+            background-size: cover;
+            background-color: black;
+        }
+        .hero img {
+            width: 100%;
+            height: auto;
+        }
+        .hero .text {
+            position:relative;
+            top: 100%;
+            left: 5%;
+            transform: translateY(-50%);
+            background-color: black;
+            /* height: 500px; */
+            
+        }
+        .hero .text h1 {
+            font-size: 75px;
+            font-weight: bold;
+            margin: 0;
+        
+        }
+        .hero .text .buttons {
+            margin-top: 20px;
+        }
+        .hero .text .buttons button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 10px;
+            font-size: 25px;
+        }
+        .hero .text .buttons .primary {
+            background-color: #fff;
+            color: #000;
+        }
+        .hero .text .buttons .secondary {
+            background-color: transparent;
+            color: #fff;
+            text-decoration: underline;
+        }
+        .content {
+            padding: 10px;
+            color:black;
+            background-color: black;
+        }
+        .content h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: white;
+        }
+        .content .see-all {
+            float: right;
+            color: white;
+            text-decoration: none;
+        }
+        .items {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .item {
+            background-color: pink;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: calc(25% - 20px);
+            box-sizing: border-box;
+        }
+        .item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .item .price {
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+            margin: 10px 0;
+        }
+        .item .brand {
+            color: #888;
+        }
+        .item .size {
+            color: #888;
+        }
+  </style>
+  <link rel="stylesheet" href="style.css">
+ 
+
+<body>
+  <div class="header">
+   <div class="logo">
+    <a href="home.html">
+    HOME
+   </div>
+   <div class="search-bar">
+    <input placeholder="search" type="text"/>
+    <i class="fas fa-search">
+    </i>
+   </div>
+   <div class="auth-buttons">
+    <button class="login">
+     Login
+    </button>
+    <button class="signup">
+     Sign up
+    </button>
+   </div>
+  </div>
+  <div class="nav">
+    <a href="home.html">
+</a>
+   <a href="wanita.html">
+    WANITA
+   </a>
+   <a href="pria.html">
+    PRIA
+   </a>
+   <a href="anak.html">
+    ANAK
+
+    
+   </a>
+  </div>
+  
+    <h1 >
+     JUAL BELI BAJU DAN THRIFT
+    </h1>
+    <div class="buttons">
+     <button class="primary">
+      MULAI BERJUALAN
+     </button>
+     <button class="secondary">
+      CARA KERJA
+     </button>
+      <img src="Screenshot 2024-11-05 011822.png" alt="BACKGROUND">
+</div>
+   </div>
+  </div>
+  <div class="content">
+    <h2>
+     Hot items
+     <a class="see-all" href="#">
+      See all
+     </a>
+    </h2>
+    <div class="items">
+     <div class="item">
+      <img alt="Black t-shirt with red and white graphic design" height="250" src="image.png" width="200"/>
+      <div class="price">
+       Rp 70.000
+      </div>
+      <div class="brand">
+       Nike
+      </div>
+      <div class="size">
+       L
+      </div>
+     </div>
+     <div class="item">
+      <img alt="Blue jeans with faded areas" height="250" src="travis.jpg" width="200"/>
+      <div class="price">
+       Rp 350.000
+      </div>
+      <div class="brand">
+       Nike
+      </div>
+      <div class="size">
+       41
+      </div>
+     </div>
+     <div class="item">
+      <img alt="Blue Dickies jeans with patches" height="250" src="gap.jpg" width="200"/>
+      <div class="price">
+       Rp 250.000
+      </div>
+      <div class="brand">
+       GAP
+      </div>
+      <div class="size">
+       M
+      </div>
+     </div>
+     <div class="item">
+      <img alt="White dress with black straps and ruffles" height="250" src="pancoat.jpg" width="200"/>
+      <div class="price">
+       Rp 250.000
+      </div>
+      <div class="brand">
+       Pancoat
+      </div>
+      <div class="size">
+       L
+      </div>
+     </div>
+     <div class="item">
+      <img alt="Black and white checkered shirt" height="250" src="puma.jpg" width="200"/>
+      <div class="price">
+       Rp 75.000
+      </div>
+      <div class="brand">
+       Puma
+      </div>
+      <div class="size">
+       L
+      </div>
+     </div>
+     <div class="item">
+      <img alt="Blue jeans with white stitching" height="250" src="tukiman.jpg" width="200"/>
+      <div class="price">
+       Rp 250.000
+      </div>
+      <div class="brand">
+       Vans
+      </div>
+      <div class="size">
+       40
+      </div>
+     </div>
+     <div class="item">
+      <img alt="Green and red plaid shirt" height="250" src="indra.jpg" width="200"/>
+      <div class="price">
+       Rp 185.000
+      </div>
+      <div class="brand">
+       carhatt
+      </div>
+      <div class="size">
+       L
+      </div>
+     </div>
+     <div class="item">
+      <img alt="Blue hoodie with white drawstrings" height="200
+      " src="sulaiman iskandar.jpg" width="250
+      "/>
+      <div class="price">
+       Rp 250.000
+      </div>
+      <div class="brand">
+       stusy
+      </div>
+      <div class="size">
+       M
+      </div>
+     </div>
+     <div class="item">
+      <img alt="Brown sleeveless top with lace details" height="250" src="lala tiba di tangga di tolong mas.jpg" width="200"/>
+      <div class="price">
+       Rp 800.000
+      </div>
+      <div class="brand">
+       adidas
+      </div>
+      <div class="size">
+       37
+      </div>
+     </div>
+     <div class="item">
+      <img alt="Red t-shirt with graphic design" height="200" src="feding.jpg" width="200"/>
+      <div class="price">
+       Rp 70.000
+      </div>
+      <div class="brand">
+       jeans
+      </div>
+      <div class="size">
+       38
+      </div>
+      
+      
+      
+      
+     </div>
+    </div>
+   </div>
+ </body>
+</html>
